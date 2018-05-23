@@ -1,6 +1,6 @@
 const Discord = require('discord.js')
 const bot = new Discord.Client()
-const Google = require('./Commands/google')
+
 
 bot.on('ready', function () {
 bot.user.setGame('Tachus ChatBot | .help').catchnode
