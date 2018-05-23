@@ -95,4 +95,4 @@ bot.on('guildMemberAdd', function (member) {
             }).catch(console.error)
 })
 
-bot.login(process.env.TOKEN)
+bot.login(process.env.TOKEN);
